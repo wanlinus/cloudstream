@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        ifaasTarget:
+          destination: ifaas-target
+          content-type: raw
+  kafka:
+    bootstrap-servers: 172.16.1.105:9092
